@@ -13,4 +13,23 @@ roslaunch uol_turtlebot_simulator turtlebot-rviz.launch
 //
 rostopic list
 
+//setting up local ros space
+//Create a workspace if you don't have one yet:
+
+mkdir -p ~/catkin_ws/src; cd ~/catkin_ws/src; catkin_init_workspace .;
+
+//Create a package assuming dependencies suitable for the first workshop task:
+
+catkin_create_pkg commanding_velocity rospy std_msgs geometry_msgs
+
+//Create a scripts directory for your first python ROS node:
+
+mkdir ~/catkin_ws/src/commanding_velocity/scripts
+
+//Build the workspace for the first time
+
+cd ~/catkin_ws
+catkin_make
+source ~/catkin_ws/devel/setup.bash
+code
 
