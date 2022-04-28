@@ -1,0 +1,16 @@
+//create robot and load maze
+roslaunch uol_turtlebot_simulator maze1.launch 
+or
+roslaunch uol_turtlebot_simulator simple.launch
+
+//movement controls
+roslaunch uol_turtlebot_simulator keyop.launch
+rostopic pub
+
+//visualisation
+roslaunch uol_turtlebot_simulator turtlebot-rviz.launch
+
+//
+rostopic list
+
+
