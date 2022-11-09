@@ -5,5 +5,7 @@ In this project, I explored the fundamentals of robot programming in ROS, and le
 
 I had to program a robot to traverse a maze. This task was completed using Python in conjunction with the ROS SDK(Robot Operation System) on a linux based system. The robot had optical and laser sensors. The laser sensors were used to detect how close it was to the maze walls. The optical sensor was used to detect coloured squares on the maze walls which indicated whether the robot was taking the correct route (blue for correct and red for incorrect).
 
+The file terminalcommands in the list of commands I used to set up the simulation environment and deploy the bot.
+
 Below is a youtube link to show my robot working with a commentary I wrote to explain my solution
 https://youtu.be/_2paiPK_Jzo
